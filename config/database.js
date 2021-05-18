@@ -18,7 +18,7 @@ if(env('NODE_ENV') === 'production') {
           password: config.password
         },
         options: {
-          ssl: false
+          ssl: true
         }
       }
     }
